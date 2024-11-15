@@ -1,0 +1,88 @@
+
+/* sobre nosotros */
+
+#aboutUs {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+#aboutUs img {
+    max-width: 100%;
+    width: 100%;
+    height: 500px;
+    object-fit: cover; 
+    display: block;
+    margin-top: 100px;
+    object-position: 0 48%;
+}
+
+/* servicios */
+
+#services {
+    padding: 40px 20px;
+}
+
+#services h2 {
+    width: 100%;
+}
+
+#services div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espacio entre las cards */
+}
+
+/* Estilos para cada card */
+article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+/* Efecto de hover para cada card */
+article:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para los títulos y el texto dentro de las cards */
+article h3 {
+    margin: 10px 0;
+    color: #444;
+}
+
+article p {
+    color: #666;
+    margin: 10px 0;
+}
+
+article p strong {
+    color: #222;
+    font-weight: bold;
+}
+
+
+
+/* Estilos para la sección de Reseñas */
+#reviews {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#reviews p {
+    font-style: italic;
+    color: #555;
+    margin: 15px 0;
+}
+
+/* Estilos para la sección de Contacto */
+#contact {
+    text-align: center;
+}
